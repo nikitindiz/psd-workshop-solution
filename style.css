@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 1600px;
+}
+
+body > * {
+    position: relative;
+    z-index: 1;
+}
+
+.red-rectangle {
+    background-color: red;
+    color: white;
+}
+
+.first-section {
+    background-image: url("img/bgk-header.png");
+    height: 669px;
+}
+
+.mockup-png {
+    z-index: 2;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 1600px;
+    height: 4170px;
+    background-image: url("designs/design.png");
+    opacity: 0.3;
+}
+
+.header {
+    background-color: red;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.navigation {
+    background-color: green;
+}
